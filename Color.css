@@ -1,0 +1,211 @@
+span.mtk15.ced-1-TextEditorDecorationType2-1 {
+  color: transparent !important;
+  background-image: linear-gradient(to right bottom, #f3057b, #e094f6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mtk14 {
+  color: transparent !important;
+  background: linear-gradient(to left, #FFC312, #EE5A24, #FFC312);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 600;
+}
+.mtk18{
+    background: linear-gradient(0deg, #7127ba, #7127ba),linear-gradient(0deg, #ffffff, #ffffff);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 22px;
+  font-style: italic;
+}
+/* span.mtk15.ced-1-TextEditorDecorationType4-1 {
+  color: transparent !important;
+  background-image: linear-gradient(to right, #00c9ff, #92fe9d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+span.mtk15.ced-1-TextEditorDecorationType6-1 {
+  color: transparent !important;
+  background-image: linear-gradient(to right, #aaffa9, #11ffbd);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+.mtk5{
+   background: linear-gradient(to left, #C4E538, #009432, #C4E538);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 22px;
+  font-weight: bold;
+  color: transparent !important;
+}
+.mtk15{
+    color: transparent !important;
+  background-image: linear-gradient(to left, #FDA7DF, #9980FA, #FDA7DF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+  font-weight: bold;
+}
+span.monaco-editor .ced-1-TextEditorDecorationType1302-1{
+   background: linear-gradient(to left, #12CBC4, #0652DD, #12CBC4);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+  font-weight: bold;
+    color: transparent !important;
+  
+}
+.monaco-editor .ced-1-TextEditorDecorationType10-1 {
+  color: transparent !important;
+  background-image: linear-gradient(to left, #1fa2ff, #12d8fa, #a6ffcb);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.monaco-scrollable-element > .scrollbar > .slider {
+  background-image: linear-gradient(90.06deg, #f86086 -4.45%, #fe8d77 104.12%);
+  border-radius: 50px;
+}
+.monaco-editor .minimap.slider-mouseover .minimap-slider {
+  background-image: linear-gradient(-45deg, #6a5af9, #d66efd);
+
+}
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active.tab-border-top
+  > .tab-border-top-container {
+  background-size: 400% 400%;
+  background-image: linear-gradient(
+    -45deg,
+    #fc6c8f,
+    #ff2ced,
+    #ffb86c,
+    #2cccff,
+    #20e3b2,
+    #ffcc70,
+    #c850c0,
+    #4158d0
+  );
+  animation: gradient 5s ease alternate infinite;
+  height: 3px;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.monaco-workbench .part.titlebar {
+  background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #20e3b2);
+  background-size: 400% 400%;
+
+  animation: tabbar 5s linear infinite;
+}
+canvas.minimap-decorations-layer{
+  background: black;
+  opacity: 0.5;
+}
+@keyframes tabbar {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.monaco-workbench .activitybar > .content,
+.monaco-workbench .activitybar > .content .monaco-action-bar,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container,.monaco-workbench .activitybar > .content, .monaco-workbench .activitybar > .content .monaco-action-bar, .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.sizing-fit ,.monaco-workbench .part.editor > .content .editor-group-container > .title .editor-actions{
+  background: black!important;
+  border-right: 1px solid rgba(255, 255, 255, 0.37)!important;
+}
+.monaco-editor, .monaco-editor-background{
+    background-color: #191a2e!important;
+}
+.monaco-workbench
+  .activitybar
+  > .content
+  :not(.monaco-menu)
+  > .monaco-action-bar
+  .action-label.codicon {
+  color: #fff !important;
+}
+.window-icon.window-close.codicon.codicon-chrome-close:hover {
+  cursor: pointer;
+}
+ .codicon-chrome-close:hover::after{
+  animation: scaleiconat 1s linear infinite;
+
+}
+ .codicon-chrome-close:hover::before{
+  animation: scaleiconbf 1s linear infinite;
+
+}
+
+.codicon-chrome-close:before{
+  content: "";
+  width: 18px!important;
+  height: 2px!important;
+  transform: rotate(45deg) translate(7px,-8px);
+  background: #fff;
+  
+}
+.codicon-chrome-close::after{
+  content: "";
+  width: 18px!important;
+  height: 2px!important;
+  transform: rotate(135deg) translate(5px, 6px);
+  background: #fff;
+}
+@keyframes scaleiconat{
+  0%{
+    transform: rotate(135deg) translate(5px, 6px) scale(0);
+
+  }
+  50%{
+    transform:rotate(135deg) translate(5px, 6px) scale(1.3);
+
+  }
+  100%{
+    transform: rotate(135deg) translate(5px, 6px) scale(0.8);
+
+  }
+}
+@keyframes scaleiconbf{
+  0%{
+    transform: rotate(45deg) translate(7px,-8px) scale(0);
+
+  }
+  50%{
+    transform:rotate(45deg) translate(7px,-8px) scale(1.3);
+
+  }
+  100%{
+    transform: rotate(45deg) translate(7px,-8px) scale(0.8);
+
+  }
+}
